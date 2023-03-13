@@ -14,6 +14,7 @@ namespace Examenm5uf2_Git
     {
         FrmMenjar fMenjar;
         FrmViatge frmViatge;
+        FrmAnimal fAnimal;
         public Form1()
         {
             InitializeComponent();
@@ -29,6 +30,12 @@ namespace Examenm5uf2_Git
         {
             frmViatge = new FrmViatge();
             frmViatge.MdiParent = this;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            fAnimal = new FrmAnimal();
+            fAnimal.MdiParent = this;
         }
     }
 }

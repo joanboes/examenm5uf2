@@ -1,6 +1,6 @@
 ﻿namespace Examenm5uf2_Git
 {
-    partial class FrmMenjar
+    partial class FrmAnimal
     {
         /// <summary>
         /// Required designer variable.
@@ -28,33 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAnimal));
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // pictureBox1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(328, 178);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(33, 15);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Pizza";
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(254, 146);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(206, 144);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
-            // FrmMenjar
+            // FrmAnimal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
-            this.Name = "FrmMenjar";
-            this.Text = "FrmMenjar";
+            this.Controls.Add(this.pictureBox1);
+            this.Name = "FrmAnimal";
+            this.Text = "FrmAnimal";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private Label label1;
+        private PictureBox pictureBox1;
     }
 }
