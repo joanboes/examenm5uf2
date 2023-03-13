@@ -1,0 +1,7 @@
+mkdir examenm5uf2
+cd examenm5uf2
+git init
+git remote add origin https://github.com/joanboes/examenm5uf2.git
+git add .
+git commit -m "Versio 1"
+git push origin master
