@@ -5,3 +5,30 @@ git remote add origin https://github.com/joanboes/examenm5uf2.git
 git add .
 git commit -m "Versio 1"
 git push origin master
+
+//Versio 2
+git add .
+git commit -m "Versio 2"
+git push origin master
+
+//Versio 3
+git add .
+git commit -m "Versio 3"
+git push origin master
+
+//Versio 4
+git add .
+git commit -m "Versio 4"
+git push origin master
+
+//Versio 5
+git add .
+git commit -m "Versio 5"
+git push origin master
+
+//Veriso 6
+git branch ampliacio
+git checkout ampliacio
+git add .
+git commit -m "Versio 6"
+git push origin ampliacio
